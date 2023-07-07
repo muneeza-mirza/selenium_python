@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  seleniumpython:
+    image: seleniumpython
+    build:
+      context: .
+      dockerfile: ./Dockerfile
